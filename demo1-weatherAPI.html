@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="demo1.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Weather Report</h1>
+        <div id="content-holder">
+            <div id="content">
+                <p>location:<h4 id="location">0</h4></p>
+                <p>humidity:<h4 id="humidity">0</h4></p>
+                <p>pressure:<h4 id="pressure">0</h4></p>
+                <p>latitude:<h4 id="lat">0</h4></p>
+                <p>longitude:<h4 id="lon">0</h4></p>
+            </div>
+            <div id="content-img">
+                <img src="images\rain-day.png">
+            </div>
+        </div>
+        
+        <button onclick="currentApi('Kuala Lumpur')">Kuala Lumpur</button>
+        <button onclick="currentApi('Pulau Pinang')">P.Penang</button>
+        <button onclick="currentApi('Johor Bahru')">Johor</button>
+        <button onclick="currentApi('Sarawak')">Sarawak</button>
+        
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="demo1.js"></script>
+</body>
+</html>

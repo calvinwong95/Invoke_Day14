@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div class="content box1">
+            <div id="location-background"></div>
+            <div id="content-holder">
+                <h1 id="location">Location</h1>
+                <h2 id="temperature">Temp</h3>
+                <div id="weather-icon"></div>
+            </div>
+            
+            <div id="button-holder">
+                <button  onclick="changeVenue('London')">London</button>
+                <button onclick="changeVenue('Egypt')">Egypt</button>
+                <button onclick="changeVenue('China')">China</button>
+            </div>
+        </div>
+        <div  id="content-box-2" class="content box2">
+            
+           
+        </div>
+        
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+
+#content-holder {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content-img img {
+
+    width: 200px;
+    height: 200px;
+}
+
